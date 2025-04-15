@@ -16,13 +16,8 @@
   <p><img src="https://img.shields.io/badge/-%E2%8F%B1%EF%B8%8F%20WARP%20INTO%20THE%20FUTURE%20%E2%8F%B1%EF%B8%8F-blueviolet?style=for-the-badge&labelColor=000020" alt="Warp Into The Future" width="320" height="40"/></p>
 </div>
 
-<style>
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
-</style>
+<!-- GitHub-compatible styling alternatives -->
+<!-- Using emojis and markdown for visual appeal instead of CSS animations -->
 
 ## 🚀 About The Game
 
@@ -37,42 +32,47 @@
   <img src="https://img.shields.io/badge/Time%20Manipulation-Enabled-blueviolet?style=for-the-badge&labelColor=000020" alt="Time Manipulation" width="300" height="40" style="animation: fadeInOut 3s infinite;">
 </div>
 
-<style>
-@keyframes fadeInOut {
-  0% { opacity: 0.7; }
-  50% { opacity: 1; }
-  100% { opacity: 0.7; }
-}
-</style>
+<!-- GitHub-compatible styling alternatives -->
+<!-- Using emojis and special characters for visual appeal instead of CSS animations -->
 
 ## 🎮 Game Features
 
-<div class="feature-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 20px 0;">
-  <div class="feature-card" style="padding: 15px; border-radius: 10px; background: linear-gradient(145deg, #2a2a72, #009ffd); color: white;">
-    <h3>🔄 Combo System</h3>
-    <p>Chain object collections for multipliers up to 3x</p>
-  </div>
-  <div class="feature-card" style="padding: 15px; border-radius: 10px; background: linear-gradient(145deg, #7303c0, #ec38bc); color: white;">
-    <h3>📈 Level Progression</h3>
-    <p>Game difficulty increases as your score grows</p>
-  </div>
-  <div class="feature-card" style="padding: 15px; border-radius: 10px; background: linear-gradient(145deg, #3a1c71, #d76d77); color: white;">
-    <h3>✨ Particle Effects</h3>
-    <p>Stunning visual feedback for each interaction</p>
-  </div>
-  <div class="feature-card" style="padding: 15px; border-radius: 10px; background: linear-gradient(145deg, #4e54c8, #8f94fb); color: white;">
-    <h3>📳 Haptic Feedback</h3>
-    <p>Feel each collection with device vibrations</p>
-  </div>
-  <div class="feature-card" style="padding: 15px; border-radius: 10px; background: linear-gradient(145deg, #11998e, #38ef7d); color: white;">
-    <h3>🏆 High Score Tracking</h3>
-    <p>Compete against yourself and break records</p>
-  </div>
-  <div class="feature-card" style="padding: 15px; border-radius: 10px; background: linear-gradient(145deg, #ff512f, #f09819); color: white;">
-    <h3>🎓 Tutorial System</h3>
-    <p>Learn the mechanics before jumping into action</p>
-  </div>
+<div align="center">
+
+| 🔄 Combo System | 📈 Level Progression | ✨ Particle Effects |
+|:---------------:|:--------------------:|:-------------------:|
+| Chain object collections for multipliers up to 3x | Game difficulty increases as your score grows | Stunning visual feedback for each interaction |
+| <img src="https://img.shields.io/badge/-MULTIPLIER-2a2a72?style=for-the-badge" alt="Combo System" /> | <img src="https://img.shields.io/badge/-DIFFICULTY-7303c0?style=for-the-badge" alt="Level Progression" /> | <img src="https://img.shields.io/badge/-VISUALS-3a1c71?style=for-the-badge" alt="Particle Effects" /> |
+
+| 📳 Haptic Feedback | 🏆 High Score Tracking | 🎓 Tutorial System |
+|:------------------:|:----------------------:|:------------------:|
+| Feel each collection with device vibrations | Compete against yourself and break records | Learn the mechanics before jumping into action |
+| <img src="https://img.shields.io/badge/-IMMERSION-4e54c8?style=for-the-badge" alt="Haptic Feedback" /> | <img src="https://img.shields.io/badge/-COMPETITION-11998e?style=for-the-badge" alt="High Score" /> | <img src="https://img.shields.io/badge/-LEARNING-ff512f?style=for-the-badge" alt="Tutorial" /> |
+
 </div>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│                      ⭐ EXCLUSIVE GAME FEATURES ⭐                      │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<details>
+<summary><b>🔮 Upcoming Features</b></summary>
+
+- **Time Freeze**: Temporarily pause all objects except your orb
+- **Multiplayer Mode**: Compete against friends in real-time
+- **Custom Themes**: Personalize your game environment
+- **Achievement System**: Unlock special rewards and badges
+- **Weekly Challenges**: New objectives refreshed every week
+
+</details>
 
 ## 🖥️ App Showcase
 
@@ -164,90 +164,126 @@ npm run build:web
 ## 🎯 How To Play
 
 <div align="center">
-  <div style="background: linear-gradient(to right, #000428, #004e92); border-radius: 15px; padding: 20px; margin: 20px 0; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
-    <div class="step-container" style="display: flex; align-items: center; margin-bottom: 15px; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 10px; transition: all 0.3s ease;">
-      <img src="https://img.shields.io/badge/1-Login-00BFFF?style=for-the-badge" alt="Step 1" width="150" height="40" style="margin-right: 15px;"/>
-      <p style="color: white; font-size: 16px; margin: 0;">Create your profile or login to your existing account</p>
-    </div>
-    <div class="step-container" style="display: flex; align-items: center; margin-bottom: 15px; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 10px; transition: all 0.3s ease;">
-      <img src="https://img.shields.io/badge/2-Tutorial-00FF00?style=for-the-badge" alt="Step 2" width="150" height="40" style="margin-right: 15px;"/>
-      <p style="color: white; font-size: 16px; margin: 0;">Learn the game mechanics through the interactive tutorial</p>
-    </div>
-    <div class="step-container" style="display: flex; align-items: center; margin-bottom: 15px; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 10px; transition: all 0.3s ease;">
-      <img src="https://img.shields.io/badge/3-Control-FFFF00?style=for-the-badge" alt="Step 3" width="150" height="40" style="margin-right: 15px;"/>
-      <p style="color: white; font-size: 16px; margin: 0;">Drag your finger across the screen to move your time orb</p>
-    </div>
-    <div class="step-container" style="display: flex; align-items: center; margin-bottom: 15px; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 10px; transition: all 0.3s ease;">
-      <img src="https://img.shields.io/badge/4-Collect-FF00FF?style=for-the-badge" alt="Step 4" width="150" height="40" style="margin-right: 15px;"/>
-      <p style="color: white; font-size: 16px; margin: 0;">Gather time objects to increase your score and build combos</p>
-    </div>
-    <div class="step-container" style="display: flex; align-items: center; margin-bottom: 15px; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 10px; transition: all 0.3s ease;">
-      <img src="https://img.shields.io/badge/5-Avoid-FF0000?style=for-the-badge" alt="Step 5" width="150" height="40" style="margin-right: 15px;"/>
-      <p style="color: white; font-size: 16px; margin: 0;">Dodge reverse objects that decrease your score</p>
-    </div>
-    <div class="step-container" style="display: flex; align-items: center; margin-bottom: 15px; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 10px; transition: all 0.3s ease;">
-      <img src="https://img.shields.io/badge/6-Compete-7B68EE?style=for-the-badge" alt="Step 6" width="150" height="40" style="margin-right: 15px;"/>
-      <p style="color: white; font-size: 16px; margin: 0;">Aim for the highest score before time runs out!</p>
-    </div>
-  </div>
+
+| Step | Action | Description |
+|:----:|:------:|:------------|
+| <img src="https://img.shields.io/badge/1-Login-00BFFF?style=for-the-badge" alt="Step 1" /> | <img src="https://img.shields.io/badge/-👤-black?style=flat-square" alt="Profile" /> | Create your profile or login to your existing account |
+| <img src="https://img.shields.io/badge/2-Tutorial-00FF00?style=for-the-badge" alt="Step 2" /> | <img src="https://img.shields.io/badge/-📖-black?style=flat-square" alt="Tutorial" /> | Learn the game mechanics through the interactive tutorial |
+| <img src="https://img.shields.io/badge/3-Control-FFFF00?style=for-the-badge" alt="Step 3" /> | <img src="https://img.shields.io/badge/-👆-black?style=flat-square" alt="Control" /> | Drag your finger across the screen to move your time orb |
+| <img src="https://img.shields.io/badge/4-Collect-FF00FF?style=for-the-badge" alt="Step 4" /> | <img src="https://img.shields.io/badge/-🔮-black?style=flat-square" alt="Collect" /> | Gather time objects to increase your score and build combos |
+| <img src="https://img.shields.io/badge/5-Avoid-FF0000?style=for-the-badge" alt="Step 5" /> | <img src="https://img.shields.io/badge/-⚠️-black?style=flat-square" alt="Avoid" /> | Dodge reverse objects that decrease your score |
+| <img src="https://img.shields.io/badge/6-Compete-7B68EE?style=for-the-badge" alt="Step 6" /> | <img src="https://img.shields.io/badge/-🏆-black?style=flat-square" alt="Compete" /> | Aim for the highest score before time runs out! |
+
 </div>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│                      🎮 MASTER THE TIME CONTROLS 🎮                     │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<details>
+<summary><b>🔍 Pro Tips & Tricks</b></summary>
+
+- **Combo Strategy**: Focus on collecting objects in rapid succession
+- **Time Management**: Prioritize hourglasses when timer gets low
+- **Score Multipliers**: Build and maintain your combo streak for maximum points
+- **Object Patterns**: Learn to recognize spawn patterns for better anticipation
+- **Practice Mode**: Use the tutorial mode to perfect your reflexes
+
+</details>
 
 ## 🔄 Game Controls
 
-<div style="background: linear-gradient(to right, #000428, #004e92); border-radius: 15px; padding: 20px; margin: 20px 0; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
-  <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-    <div style="background: rgba(255,255,255,0.1); border-radius: 10px; padding: 15px; margin: 10px; width: 200px; text-align: center;">
-      <h3 style="color: #61DAFB; margin-top: 0;">👆 Drag</h3>
-      <p style="color: white;">Move your time orb across the screen</p>
-    </div>
-    <div style="background: rgba(255,255,255,0.1); border-radius: 10px; padding: 15px; margin: 10px; width: 200px; text-align: center;">
-      <h3 style="color: #61DAFB; margin-top: 0;">🔄 Tap "Play Again"</h3>
-      <p style="color: white;">Restart after game over</p>
-    </div>
-    <div style="background: rgba(255,255,255,0.1); border-radius: 10px; padding: 15px; margin: 10px; width: 200px; text-align: center;">
-      <h3 style="color: #61DAFB; margin-top: 0;">⚡ Combo</h3>
-      <p style="color: white;">Collect objects quickly to increase your multiplier</p>
-    </div>
-  </div>
+<div align="center">
+
+| <img src="https://img.shields.io/badge/-👆%20DRAG-61DAFB?style=for-the-badge" alt="Drag" /> | <img src="https://img.shields.io/badge/-🔄%20TAP%20PLAY%20AGAIN-61DAFB?style=for-the-badge" alt="Play Again" /> | <img src="https://img.shields.io/badge/-⚡%20COMBO-61DAFB?style=for-the-badge" alt="Combo" /> |
+|:---:|:---:|:---:|
+| Move your time orb across the screen | Restart after game over | Collect objects quickly to increase your multiplier |
+
 </div>
+
+<details>
+<summary><b>🎮 Advanced Control Tips</b></summary>
+
+- **Quick Flick**: Rapidly move across the screen with a quick flick gesture
+- **Edge Hover**: Position near screen edges to attract nearby objects
+- **Combo Timing**: Collect objects within 1.5 seconds of each other to maintain combos
+- **Reverser Dodge**: Quick zigzag movements help avoid reverser objects
+
+</details>
 
 ## ⏳ Gameplay Timeline
 
-<div style="background: linear-gradient(to right, #000428, #004e92); border-radius: 15px; padding: 20px; margin: 20px 0; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
-  <div style="position: relative; padding: 20px 0;">
-    <div style="position: absolute; top: 0; bottom: 0; left: 50%; width: 4px; background: rgba(255,255,255,0.3); transform: translateX(-50%);"></div>
-    
-    <div style="position: relative; margin-bottom: 30px;">
-      <div style="position: absolute; left: 50%; width: 20px; height: 20px; background: #61DAFB; border-radius: 50%; transform: translateX(-50%); z-index: 1;"></div>
-      <div style="margin-left: 60px; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 15px; width: calc(50% - 80px);">
-        <h3 style="color: #61DAFB; margin-top: 0;">Start Game</h3>
-        <p style="color: white;">Begin with 30 seconds on the clock</p>
-      </div>
-    </div>
-    
-    <div style="position: relative; margin-bottom: 30px;">
-      <div style="position: absolute; left: 50%; width: 20px; height: 20px; background: #61DAFB; border-radius: 50%; transform: translateX(-50%); z-index: 1;"></div>
-      <div style="margin-right: 60px; margin-left: auto; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 15px; width: calc(50% - 80px);">
-        <h3 style="color: #61DAFB; margin-top: 0;">Collect Objects</h3>
-        <p style="color: white;">Gather time objects to increase score</p>
-      </div>
-    </div>
-    
-    <div style="position: relative; margin-bottom: 30px;">
-      <div style="position: absolute; left: 50%; width: 20px; height: 20px; background: #61DAFB; border-radius: 50%; transform: translateX(-50%); z-index: 1;"></div>
-      <div style="margin-left: 60px; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 15px; width: calc(50% - 80px);">
-        <h3 style="color: #61DAFB; margin-top: 0;">Build Combos</h3>
-        <p style="color: white;">Chain collections for multipliers</p>
-      </div>
-    </div>
-    
-    <div style="position: relative;">
-      <div style="position: absolute; left: 50%; width: 20px; height: 20px; background: #61DAFB; border-radius: 50%; transform: translateX(-50%); z-index: 1;"></div>
-      <div style="margin-right: 60px; margin-left: auto; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 15px; width: calc(50% - 80px);">
-        <h3 style="color: #61DAFB; margin-top: 0;">Game Over</h3>
-        <p style="color: white;">When time runs out, your score is recorded</p>
-      </div>
-    </div>
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│                         CHRONOS GAMEPLAY FLOW                          │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  🕒 START GAME                                                          │
+│  ───────────                                                           │
+│  Begin with 30 seconds on the clock                                    │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  🔮 COLLECT OBJECTS                                                    │
+│  ────────────────                                                      │
+│  Gather time objects to increase score                                 │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  ⚡ BUILD COMBOS                                                       │
+│  ────────────                                                          │
+│  Chain collections for multipliers                                     │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  🏁 GAME OVER                                                          │
+│  ──────────                                                            │
+│  When time runs out, your score is recorded                            │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<div align="center">
+
+### Alternative Timeline View
+
+| Stage | Description |
+|:-----:|:------------|
+| <img src="https://img.shields.io/badge/1-START-61DAFB?style=for-the-badge" alt="Start" /> | Begin with 30 seconds on the clock |
+| ⬇️ | |
+| <img src="https://img.shields.io/badge/2-COLLECT-00FF00?style=for-the-badge" alt="Collect" /> | Gather time objects to increase score |
+| ⬇️ | |
+| <img src="https://img.shields.io/badge/3-COMBO-FFFF00?style=for-the-badge" alt="Combo" /> | Chain collections for multipliers |
+| ⬇️ | |
+| <img src="https://img.shields.io/badge/4-FINISH-FF0000?style=for-the-badge" alt="Finish" /> | When time runs out, your score is recorded |
+
+</div>
   </div>
 </div>
 
@@ -271,22 +307,37 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For inquiries, please reach out to us at [shkshreyaskumar@gmail.com](mailto:shkshreyaskumar@gmail.com)
 
-<div align="center" style="margin-top: 40px; padding: 20px; background: linear-gradient(to right, #000428, #004e92); border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
-  <img src="https://img.shields.io/badge/Made%20with-⏱️%20Time%20%26%20❤️-FF5733?style=for-the-badge" alt="Made with Time & Love" width="300" height="40" style="animation: pulse 2s infinite;">
-  
-  <p style="color: #61DAFB; margin-top: 15px; font-style: italic;">"In the game of time, every second counts."</p>
-  
-  <div style="display: flex; justify-content: center; margin-top: 20px;">
-    <div style="width: 40px; height: 40px; background: #FF5733; border-radius: 50%; margin: 0 10px; animation: float 3s infinite ease-in-out;"></div>
-    <div style="width: 40px; height: 40px; background: #61DAFB; border-radius: 50%; margin: 0 10px; animation: float 3s infinite ease-in-out 0.5s;"></div>
-    <div style="width: 40px; height: 40px; background: #7B68EE; border-radius: 50%; margin: 0 10px; animation: float 3s infinite ease-in-out 1s;"></div>
-  </div>
-</div>
+<div align="center">
 
-<style>
-@keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
-}
-</style>
+<img src="https://img.shields.io/badge/Made%20with-⏱️%20Time%20%26%20❤️-FF5733?style=for-the-badge" alt="Made with Time & Love" />
+
+```
+  _____  _   _  _____   ____  _   _  ____   _____ 
+ |_   _|| | | ||  ___| / ___|| | | ||  _ \ / ____|
+   | |  | |_| || |__  | |    | |_| || |_) | (___  
+   | |  |  _  ||  __| | |    |  _  ||  _ < \___ \ 
+   | |  | | | || |___ | |___ | | | || |_) |____) |
+   |_|  |_| |_||_____| \____||_| |_||____/|_____/ 
+                                                   
+```
+
+> *"In the game of time, every second counts."*
+
+<table>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/-%E2%8F%B1%EF%B8%8F-FF5733?style=for-the-badge&labelColor=FF5733" alt="Time Orb 1" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/-%E2%8F%B1%EF%B8%8F-61DAFB?style=for-the-badge&labelColor=61DAFB" alt="Time Orb 2" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/-%E2%8F%B1%EF%B8%8F-7B68EE?style=for-the-badge&labelColor=7B68EE" alt="Time Orb 3" /></td>
+  </tr>
+</table>
+
+<details>
+<summary><b>🌟 Special Thanks</b></summary>
+
+- **Time Keepers**: Our dedicated beta testers
+- **Chronos Team**: Developers, designers, and visionaries
+- **You**: For exploring our time-bending adventure
+
+</details>
+
+</div>
